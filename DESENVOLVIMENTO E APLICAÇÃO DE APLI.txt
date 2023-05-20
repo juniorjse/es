@@ -1,0 +1,131 @@
+DESENVOLVIMENTO E APLICAÇÃO DE APLICATIVO DESTINADO PARA
+ADOLESCENTES COM DIABETES TIPO 1 E SEUS FAMILIARES
+
+aprendizado do IFRN
+html
+react native
+
+1. Público-alvo:
+Jovens entre 12 e 18 anos
+Com diagnóstico de DM1
+Em acompanhamento no ambulatório de endocrinologia do HUAC
+Definição básica da persona: 
+
+
+2. Metas educacionais:
+a. Entendimento global da doença (pode ser realizado através de questionário):
+Controle glicêmico diário
+Quantidade de carboidratos que será ingerida em cada refeição
+Fisiopatologia da DM1
+Complicações da DM1
+
+b. Objetivo Final
+Reduzir taxas de complicação da DM1 (internações, reajuste de insulina, qualidade de vida são parâmetros possíveis) pelo melhor entendimento da doença 
+
+Plano de desenvolvimento inicial: 
+1) Aplicativo gamificado (dinâmico) sobre o DM1
+
+3. Funcionalidades básicas do aplicativo:
+a. REVISÃO DE APLICATIVOS DE CONTROLE GLICÊMICO
+
+
+Geração de relatórios glicêmicos
+Lembrete de aferição da glicemia
+Interface intuitiva
+Fator de sensibilidade e relação insulina/ carboidrato
+Acesso simultâneo entre pais e filhos
+Beyond Type1
+❌
+❌
+✅
+❌
+❌
+Glic
+✅
+❌
+❌
+✅
+❌
+MySugr
+✅
+❌
+❌
+✅
+❌
+Blood Sugar
+✅
+❌
+✅
+❌
+❌
+Diabetes controle
+✅
+✅
+✅
+✅
+❌
+
+
+b. TÓPICOS BÁSICOS PARA O FUNCIONAMENTO DO APP
+i. Registro de glicemias: Uma função que permite ao usuário registrar suas glicemias com VALOR, PRÉ/PÓS PRANDIAL, DATA
+	i.1: O que é glicemia? Por que eu devo furar o dedo? O que é pré e pós prandial?
+ii. Cálculo de correção de glicemia: Uma função que permite ao usuário calcular a quantidade de insulina que precisa ser administrada para corrigir a glicemia, de acordo com a quantidade de carboidratos que planeja consumir na próxima refeição.
+	FS = 1800 / Total de Insulina
+	Correção do CHO = Total CHO / FS
+	Correção glicemia = (Glicemia - glicemia alvo) / FS
+iii. Registro de refeições: Uma função que permite ao usuário registrar as refeições (alimentos e carboidratos) que está planejando ou que já consumiu, para facilitar o cálculo de correção de glicemia.
+	iii.1: Como calcular os carboidratos de uma refeição? O que são carboidratos? Por que deve verificar o que estou comendo?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(Aplicativo Diabetes Controle: estimativa dos alvos glicêmicos pré e pós-prandiais e definição do coeficiente de sensibilidade)
+
+
+
+
+
+
+
+Gráfico (glicemia x data) do aplicativo BloodSugar
+
+
+
+
+
+
+
+
+
+4. Funcionalidades adicionais/extras:
+
+i. medição: Uma função que envia lembretes ao usuário para lembrá-lo de medir a glicemia em horários específicos, para evitar hiperglicemia ou hipoglicemia.
+ii. Registro de atividades: Uma função que permite ao usuário registrar as atividades físicas que está planejando ou que já realizou, para ajustar a dose de insulina necessária para manter a glicemia em níveis saudáveis.
+iii. Dicas e orientações: Uma seção com dicas e orientações para lidar com o diabetes tipo 1, como orientações sobre alimentação saudável, monitoramento da glicemia e uso correto da insulina.
+iv. Acesso a recursos adicionais: Acesso a recursos adicionais, como links para sites especializados em diabetes tipo 1, vídeos educativos, receitas saudáveis e grupos de suporte para pessoas com diabetes.
+
+5. Tecnologias para desenvolvimento
+
+Aplicativo para crianças e pessoas com diabetes tipo 1, para registrar glicemias, facilitar o cálculo de correção de glicemia nas refeições e conscientizar sobre o diabetes tipo 1:
+
+i. Frontend:
+1. Framework: React Native ou Flutter (ambos oferecem uma curva de aprendizado relativamente suave e suporte para desenvolvimento de aplicativos móveis para Android e iOS)
+2. Linguagem de programação: JavaScript ou Dart (para React Native ou Flutter, respectivamente)
+ii. Backend:
+1. Framework: Firebase (oferece um banco de dados em tempo real e recursos de autenticação, além de ter uma curva de aprendizado suave)
+2. Linguagem de programação: Não aplicável, pois o Firebase usa uma API de banco de dados e autenticação.
+
+
